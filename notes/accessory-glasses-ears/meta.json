@@ -1,0 +1,9 @@
+{
+  "slug": "accessory-glasses-ears",
+  "title": "在配件页里做眼镜和兽耳",
+  "category": "accessory",
+  "date": "2026-11-25",
+  "source": "Vroid Studio: Accessories https://www.youtube.com/watch?v=ywbc35fMqBc",
+  "summary": "在 VRoid Studio 1.13.0 的 Accessories 里，用 Glasses (Thick) 的 Frame Shape 4 做镜框，把镜片贴图涂黑、镜框涂白，再旋到头顶；Cat Ears 用 Tip Roundness、Ear Size 和 Ear Shape 改形，并在新图层上画白斑。导出 VRM 时 Delete Transparent Meshes 和 Combine Hair Mesh 都不要勾。",
+  "cover": "notes/accessory-glasses-ears/01.jpg"
+}

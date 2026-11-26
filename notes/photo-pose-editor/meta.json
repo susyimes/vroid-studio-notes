@@ -1,0 +1,9 @@
+{
+  "slug": "photo-pose-editor",
+  "title": "摄影棚里摆姿势，再开抗锯齿和 Bloom 拍照",
+  "category": "photo",
+  "date": "2026-11-25",
+  "source": "Vroid Studio - Photo Booth Pose editor https://www.youtube.com/watch?v=HDSDf_Ukjbg",
+  "summary": "在 Photo Booth 里把下拉改成 Posing，用控制器摆身体、用手型下拉摆手。拍照前把抗锯齿设成 High、勾上 Bloom（Intensity 8.958，Threshold 0.500，Color #FFFFFF），预设尺寸选 4K（3840×2160）。",
+  "cover": "notes/photo-pose-editor/11.jpg"
+}

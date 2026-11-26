@@ -1,0 +1,9 @@
+{
+  "slug": "syafire-eye-textures",
+  "title": "自己画眼睛贴图：导出虹膜、剪贴上色再导回",
+  "category": "eyes",
+  "date": "2026-11-25",
+  "source": "How To Make Custom Eye Textures In VRoidStudio https://www.youtube.com/watch?v=rPpgUFDwr_o",
+  "summary": "把 VRoid 0.11 的虹膜默认图导出到 Photoshop，用剪贴蒙版在椭圆里铺绿、提亮并加上同侧高光，再导回 Irises，然后擦掉 Eye Highlights 上原来的高光。",
+  "cover": "notes/syafire-eye-textures/13.jpg"
+}

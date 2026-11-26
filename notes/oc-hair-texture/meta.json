@@ -1,0 +1,9 @@
+{
+  "slug": "oc-hair-texture",
+  "title": "异国剑士 p07 头发贴图",
+  "category": "texture",
+  "date": "2026-11-25",
+  "source": "【VRoid教程/画手向】如何让你的OC变成立体人 p07 头发贴图 https://www.bilibili.com/video/BV1yX4y1p7Zk/?p=7",
+  "summary": "头发组已经是一串手绘组。先把材质改成后发2，导入 UV 棋盘格对位置，再把立绘里的后发导出到 SAI，用扭曲铺进色块。白边先留着，后面的组复制这一份，剩下的倍速铺完。",
+  "cover": "notes/oc-hair-texture/18.jpg"
+}

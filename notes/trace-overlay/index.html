@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>免安装穿透描图：把参考图叠在脸上 — VRoid 捏人笔记</title>
+  <link rel="stylesheet" href="../../css/site.css">
+</head>
+<body>
+  <article class="wrap article">
+    <a class="back" href="../../index.html">全部笔记</a>
+    <p class="eyebrow">脸型</p>
+    <h1>免安装穿透描图：把参考图叠在脸上</h1>
+    <p class="meta">来源视频 · 2026-11-25</p>
+
+    <section class="step">
+      <h2>下这个 bat，不用安装</h2>
+      <figure>
+        <img src="01.jpg" alt="GitHub 上 v3.9 发布页，Assets 里有 VRoid.Reference.Overlay.v3.9.bat">
+        <figcaption>地址栏是 github.com/surcenvtuber/VRoid-Reference-Overlay/releases/tag/v3.9。看 Assets 里的 VRoid.Reference.Overlay.v3.9.bat，旁边写着 11.9 KB。说明只有一行 Added mouse wheel zoom support。</figcaption>
+      </figure>
+      <p>工具窗口标题是 VRoid Reference Overlay。视频里仓库首页的 README 把中文名写成「VRoid 参考图悬浮工具」，并写明只有一个文件、双击就能运行；若 Windows 弹出安全警告，点「仍要运行」。字幕说下载链接在评论区或简介。简介里的仓库地址是 https://github.com/surcenvtuber/VRoid-Reference-Overlay ，另外还有百度网盘 https://pan.baidu.com/s/1w7nK9NccE3bblASN3Kbn-Q?pwd=9999 。网盘只出现在简介，画面上没有。</p>
+    </section>
+
+    <section class="step">
+      <h2>双击后在深色方块上右键</h2>
+      <figure>
+        <img src="02.jpg" alt="VRoid Reference Overlay 黑窗口，深色方块提示右键加载，旁边打开了右键菜单">
+        <figcaption>窗口标题是 VRoid Reference Overlay。命令行写着 Starting VRoid Reference Overlay v3.9...。方块上是 [ RIGHT-CLICK HERE ] To Load Image。菜单从上到下是 [ Load Image ]、[ Lock Image ] (Click-Through)、Transform、Opacity、About / Credits、Exit。</figcaption>
+      </figure>
+      <p>字幕说完全不用安装，双击直接启动。演示时这个窗口已经浮在 VRoid Studio 2.7.0 上面。加载参考图点第一项 [ Load Image ]。Transform 和 Opacity 右边有下级箭头，这一镜没有点开。画面上没有快捷键。</p>
+    </section>
+
+    <section class="step">
+      <h2>把图放大，置顶盖在脸上</h2>
+      <figure>
+        <img src="03.jpg" alt="不透明的参考图盖住 VRoid 模型的头部，浮在面部编辑界面上方">
+        <figcaption>参考图铺在视口中间，盖住模型的头。字幕写着永远置顶，悬浮在 VRoid 上方。左侧是「面部」里的「面部套组」，右侧是「参数」。</figcaption>
+      </figure>
+      <p>字幕开头说新版 VRoid 不能导入参考图，所以用这块悬浮窗代替。字幕写右键加载、滚轮缩放。发布页那行鼠标滚轮缩放，和 README 里的「滚动鼠标滚轮，或拖拽图片右下角」是同一件事。画面上能看到图从小方块放大到盖住整张脸，但没有单独停在滚轮或拖角的动作上。先不要锁定，图还要能接住右键。盖好后窗口一直压在模型上面，切到「面部」也不会被 VRoid 挡住。</p>
+    </section>
+
+    <section class="step">
+      <h2>用 Opacity 把图调透</h2>
+      <figure>
+        <img src="04.jpg" alt="参考图已经半透明，旁边弹出标题为 Opacity 的滑杆小窗">
+        <figcaption>图的右边是标题为 Opacity 的小窗，里面一条横滑杆，右上角是关闭叉。滑杆上没有数字。参考图变淡之后，底下模型的眼睛透了出来。字幕写可以随意调透明度。</figcaption>
+      </figure>
+      <p>在图上右键，点 Opacity。拖这条滑杆改变浓淡。视频里拖完后参考图变淡，模型的五官从底下露出来，用来对眼睛和脸的位置。滑杆没有百分比，也没有快捷键。不用时点小窗右上角的叉关掉。视频没有标往左还是往右才更透，对着脸看浓淡即可。</p>
+    </section>
+
+    <section class="step">
+      <h2>锁定穿透，再拖脸上的参数</h2>
+      <figure>
+        <img src="05.jpg" alt="右键菜单里 Lock Image (Click-Through) 被蓝底选中">
+        <figcaption>右键菜单里 [ Lock Image ] (Click-Through) 被蓝底选中。字幕把这一项叫作锁定图片、开启「穿透模式」。</figcaption>
+      </figure>
+      <figure>
+        <img src="06.jpg" alt="半透明参考图盖在模型脸上，右侧面部参数里眼睛位置已经离开 0">
+        <figcaption>菜单关掉后，半透明参考图仍盖在脸上，和底下模型的眼睛叠在一起。右侧「面部」的「参数」里，「眼睛位置」已经离开 0。</figcaption>
+      </figure>
+      <p>点亮 [ Lock Image ] (Click-Through) 之后，点击会穿过图片落到 VRoid 上。画面上的 README 写的是：锁定后，鼠标可以直接穿透图片，操作背后的模型。视频里人停在「面部」，右侧参数还能拖。结果画面上「眼睛位置」是负数，同一屏里「眼睛整体旋转」仍是 0。这只说明滑杆点得到，不要把画面上的数字当成目标。对着参考图的眼睛，自己决定往哪边拖。位置先对好再锁，因为锁定后右键点不到这张图。菜单里的 Transform 有下级箭头，视频没点开；README 还写了旋转和翻转，画面上没有单独演示。</p>
+    </section>
+
+    <section class="step">
+      <h2>穿透后去编辑纹理，对着模型描</h2>
+      <figure>
+        <img src="07.jpg" alt="编辑纹理界面，参考图盖在左侧模型预览上，右侧是笔刷颜色和笔刷粗细">
+        <figcaption>顶部是「编辑纹理」。左侧列表停在「眼睑」下的「纹理 &gt; 图层 &gt; 默认图片」。参考图仍盖在左边的模型预览上。右边是「笔刷颜色」和「笔刷形状」，下面有「笔刷粗细」。</figcaption>
+      </figure>
+      <p>字幕说现在可以透过图片，直接在模型上描线、捏脸。锁定没有解除，参考图还在左边的预览上。描的时候看参考图的眼线和刘海，在左边模型上落笔；右边的色环和笔刷粗细都能点。视频没有停在某一笔的前后对比上，所以不写该描哪一根线，也不写笔刷该停在多少。</p>
+    </section>
+
+    <section class="step">
+      <h2>要再挪图，右键托盘图标解锁</h2>
+      <figure>
+        <img src="08.jpg" alt="参考图仍半透明盖在脸上，任务栏右下角展开了一排托盘图标">
+        <figcaption>参考图仍然半透明盖在脸上。任务栏右下角展开了一排托盘图标。字幕写：需要调整时，右键右下角托盘图标就能解锁。</figcaption>
+      </figure>
+      <p>锁定之后，图上的右键菜单点不到。字幕说的解锁办法是右键屏幕右下角托盘里的这个工具图标。这一镜只张开了托盘，没有看清菜单上的英文，所以不写菜单项名字。解开之后才能再改大小、透明度，或重新点 [ Load Image ]。</p>
+    </section>
+  </article>
+</body>
+</html>

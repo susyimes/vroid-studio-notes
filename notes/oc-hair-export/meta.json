@@ -1,0 +1,9 @@
+{
+  "slug": "oc-hair-export",
+  "title": "异国剑士 p08 逻辑头发组/头发骨骼/导出模型",
+  "category": "hair",
+  "date": "2026-11-25",
+  "source": "【VRoid教程/画手向】如何让你的OC变成立体人 p08 逻辑头发组/头发骨骼/导出模型 https://www.bilibili.com/video/BV1yX4y1p7Zk/?p=8",
+  "summary": "颅顶不够高时加一组逻辑头发组垫起来并补发缝，再按发势手动建骨骼组。摄影棚里用风看过之后导出 VRM；要做面捕完美同步，就不要勾删除透明网格。",
+  "cover": "notes/oc-hair-export/17.jpg"
+}

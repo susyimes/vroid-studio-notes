@@ -1,0 +1,9 @@
+{
+  "slug": "oc-face-texture",
+  "title": "异国剑士 p03 五官/脸部贴图",
+  "category": "texture",
+  "date": "2026-11-25",
+  "source": "【VRoid教程/画手向】如何让你的OC变成立体人 p03 五官/脸部贴图 https://www.bilibili.com/video/BV1yX4y1p7Zk/?p=3",
+  "summary": "自带笔刷画不出 OC 的五官时，用青夜小工具把瞳孔、眉毛、眼线、鼻子和皮肤链到 SAI，按立绘重画贴图，并关掉 Shader 颜色。",
+  "cover": "notes/oc-face-texture/12.jpg"
+}

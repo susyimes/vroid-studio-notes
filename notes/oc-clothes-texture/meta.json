@@ -1,0 +1,9 @@
+{
+  "slug": "oc-clothes-texture",
+  "title": "异国剑士 p05 衣服贴图",
+  "category": "costume",
+  "date": "2026-11-25",
+  "source": "【VRoid教程/画手向】如何让你的OC变成立体人 p05 衣服贴图 https://www.bilibili.com/video/BV1yX4y1p7Zk/?p=5",
+  "summary": "默认的制服内衬没有衬衫下摆，就加铅笔裙模板用橡皮擦裁出下摆，再用宵夜小工具把贴图和参考线导出，在 SAI 里用扭曲贴上领子、袖子、裤子和鞋子。蝴蝶结模板没有系带，另外加了一层领带。",
+  "cover": "notes/oc-clothes-texture/09.jpg"
+}

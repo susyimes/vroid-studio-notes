@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paper朱 p06 VRoid 模型细节整理 — VRoid 捏人笔记</title>
+  <link rel="stylesheet" href="../../css/site.css">
+</head>
+<body>
+  <article class="wrap article">
+    <a class="back" href="../../index.html">全部笔记</a>
+    <p class="eyebrow">其他</p>
+    <h1>Paper朱 p06 VRoid 模型细节整理</h1>
+    <p class="meta">来源《从零开始的二次元老婆/虚拟偶像全流程教程》p06 5vroid模型细节整理 · 2026-11-25</p>
+    <p class="lede">这一集约 5 分 20 秒，没有章节。窗口是 VRoid Studio 1.5.0 - Xiduochuan.vroid*，界面是英文。视口背后仍贴着同一张校服参考。身体滑杆只记下这一屏能读清的；后面表情和贴图里，读数跟着那一帧，没在画面上的步骤标成口播。</p>
+
+    <section class="step">
+      <h2>身体收尾，再回到脸</h2>
+
+      <h3>整体还停在 Body</h3>
+      <figure>
+        <img src="01.jpg" alt="Body 的 Whole Body，校服角色站在参考图前，右侧是头和脖子参数">
+        <figcaption>0:09 · Body → Whole Body → Presets。看右侧 Parameters 里偏了的 Head Width、Neck Length，以及字幕「在检查完整体模型之后」。</figcaption>
+      </figure>
+      <p>顶栏停在 Body。左侧两张身体预设都勾着，角色身上已经是白衬衫、领带和格子裙。Apply color when editing 没勾。Color、Dark Color、Light Color 是三颗肤色色块。Color #FAEBDE、Dark Color #EFBAA3、Light Color #FFF7F1。Parameters 里 Head Size、Head Tip (Y)、Neck Thickness、Neck Width、Soften Collarbone、Show Adam's Apple 都是 0.000；Head Width 是 -0.379；Neck Length 是 0.344。这一屏没有再拖新的滑杆。口播说检查完还会再微调一次，下一句就说整体身体微调完毕。</p>
+
+      <h3>表情编辑在脸部工具栏最后</h3>
+      <figure>
+        <img src="02.jpg" alt="Face 的 Skin Custom，左侧是脸部预设，右侧是耳朵和下巴参数">
+        <figcaption>0:18 · Face → Skin → Custom。看左侧竖条最下面的图标，以及字幕「我们就可以返回脸部」。</figcaption>
+      </figure>
+      <p>点回 Face，先落在 Skin 的 Custom。右侧是耳朵、下颌和下巴的 Parameters，能读到的标签有 Ear Prominence、Jaw Position (Y)、Cheekbones Position (Z)、Chin Length、Chin Width。口播说接下来做表情，表情编辑是脸部最后一个：左侧竖条底部那个图标，悬停出来的名字是 Expression Editor。这一帧还没点进去。</p>
+    </section>
+
+    <section class="step">
+      <h2>默认表情往下收，不要拉穿</h2>
+
+      <h3>面捕用的就是这一列</h3>
+      <figure>
+        <img src="03.jpg" alt="Expression Editor 里 Smiling 被选中，角色在微笑，右侧分组都收着">
+        <figcaption>0:32 · Face → Expression Editor，左侧 Smiling 亮着。看一列表情名，以及字幕「那么这里是决定了面捕的时候」。</figcaption>
+      </figure>
+      <p>点进 Expression Editor。左侧是 Neutral、Smiling、Sad、Angry、Happy、Surprised、Closed、Closed (Right)、Closed (Left)，再往下是 A、I、U、E、O。这一帧 Smiling 亮着，嘴角是轻微笑，不是张大。右侧分组都还收着：Eyebrows (Masc)、Eyes (Fem)、Eyes (Masc)、Eyes、Mouth (Fem)、Mouth (Masc)、Mouth Inside、Teeth。口播说这里决定面捕，也用来看 MMD 里有哪些自带表情；具体数值要凭喜好，也可以去找动漫参考，这两句画面上没有对照图。</p>
+
+      <h3>生气嘴只拉过半，开心不要拉满</h3>
+      <figure>
+        <img src="04.jpg" alt="Sad 被选中，Mouth (Fem) 里只有 Angry 拉开，脸还是闭着嘴">
+        <figcaption>0:45 · Expression Editor → Sad，右侧 Mouth (Fem) → Angry。看 Angry 的读数，以及字幕「一直稍微往下拉低一点即可」。</figcaption>
+      </figure>
+      <p>眉毛会穿进描边时，口播说把那一项的最大值往下收。这一帧左侧是 Sad，右侧打开的是 Mouth (Fem)。Angry 是 45.815，旋钮过了中线、没到头；Neutral、Smiling、Sad、Happy、Surprised 以及 A、I、U、E、O 都还是 0.000。脸仍然闭着嘴。</p>
+      <figure>
+        <img src="05.jpg" alt="Happy 被选中，Happy 滑杆拉满，角色眼睛闭上、嘴张得很大">
+        <figcaption>0:55 · 同一页，左侧改选 Happy。右侧展开组的标题被切掉了，Happy 贴到最右。下面的 Mouth (Fem) 是收着的。</figcaption>
+      </figure>
+      <p>换成 Happy，眼睛闭上，嘴张到最大。这一帧能看见的是 Smiling、Sad、Angry、Surprised 都是 0.000，Happy 是 100.000。Mouth (Fem)、Mouth (Masc)、Mouth Inside、Teeth 都收着，所以这 100 不是 Mouth (Fem) 里的读数。口播接着说微笑时不要把这些值拉很大，以免穿模；每个区块里的滑杆就是脸上能控的 blendshape，这个词出现在稍后的字幕里。拉满的这一下是反例，不是要留的结果。</p>
+
+      <h3>转到侧面看那根描边</h3>
+      <figure>
+        <img src="06.jpg" alt="侧面特写，嘴角有描边，右侧 Mouth Inside 里有三项离开了最左">
+        <figcaption>1:48 · Expression Editor → Happy，右侧 Mouth Inside。看嘴角外侧的描边，以及字幕「调到不会出现那根穿模的描边线即可」。</figcaption>
+      </figure>
+      <p>正面看不出嘴和脸的布线冲突时，把镜头转到侧面。口播说穿模就是嘴巴和脸的布线打架，把嘴部往下调，直到那根穿出的描边消失；嘴显得太大也同样往回收。这一帧 Happy 仍亮着，Mouth Inside 里 Downwards、Cat Mouth、Narrowness 的旋钮离开了最左，Closed、Upwards、Width 和几项 Vampire Tooth 还是 0.000。具体小数这一帧不抄。</p>
+    </section>
+
+    <section class="step">
+      <h2>闭眼刚好合上，口型对着发音</h2>
+
+      <h3>单眼拉到刚闭上</h3>
+      <figure>
+        <img src="07.jpg" alt="Closed (Right) 被选中，角色一只眼闭上，Eyes 里 Closed (Right) 是 95">
+        <figcaption>2:10 · Expression Editor → Closed (Right)，右侧 Eyes → Closed (Right)。看没有完全顶到头的旋钮，以及字幕「所以我们一般拉到刚好闭上眼睛」。</figcaption>
+      </figure>
+      <p>闭眼也会穿模。点 Closed (Right)，在 Eyes 里把 Closed (Right) 拉到 95.000，眼睛刚好合上，没有顶到 100。Closed、Closed (Left)、Move to Back、Hide Irises、Close Irises、Open Irises、Cat Eyes、Hide Highlights 都还是 0.000。口播说闭眼拉到刚好闭上即可。另一侧后来改选 Closed (Left)，同样只闭一只眼。</p>
+
+      <h3>左右眼要一致，口型用预设再收</h3>
+      <figure>
+        <img src="08.jpg" alt="左侧 A 被选中，两只眼睛都睁开，嘴微张">
+        <figcaption>2:19 · Expression Editor → A。看两侧都睁着的眼睛，以及字幕「所以我这边选择的复制粘贴」。</figcaption>
+      </figure>
+      <p>口播说左右眼的参数尽量保持一致，所以这边用复制粘贴。这一帧没有复制按钮，右侧分组也都收着，只能看到结果：A 被选中，两只眼睛大小一样，嘴微张。复制粘贴本身是口播。</p>
+      <figure>
+        <img src="09.jpg" alt="左侧 U 被选中，嘴收成小圆，右侧 Mouth (Fem) 的 U 拉到最右">
+        <figcaption>2:25 · Expression Editor → U，右侧 Mouth (Fem) → U。看收圆的嘴，以及字幕「这边调下嘴型」。</figcaption>
+      </figure>
+      <p>左侧 A、I、U、E、O 是口型。口播说大部分嘴型预设已经给好，做的时候对照自己发出这几个音的嘴型，再按审美收。这一帧停在 U，嘴收成小圆，U 的旋钮拉到最右。后面还切过 O，再点回 Neutral。口播说表情调整到这里大致结束。</p>
+    </section>
+
+    <section class="step">
+      <h2>皮肤上补一层手绘阴影</h2>
+
+      <h3>眼白先描边缘</h3>
+      <figure>
+        <img src="10.jpg" alt="Texture Editor 里是眼白，右边两块圆形 UV，笔圈在右眼边缘">
+        <figcaption>3:32 · Texture Editor，左侧 Scleras → Texture → Layers。看右边两块眼白 UV 上的笔圈，以及字幕「把边缘」。</figcaption>
+      </figure>
+      <p>口播说最后做一点后处理，让眼睛和身上的阴影不那么平，这里可以加速看。先开眼白的贴图。右侧是两块圆形 UV，圆笔停在右眼边缘。口播要把边缘处理得更清楚。Brush Width 这一帧不抄。</p>
+
+      <h3>脖子和脸的分界，再描到衣服</h3>
+      <figure>
+        <img src="11.jpg" alt="皮肤贴图编辑器，右边是脸部 UV，眼睛和脖子的分块摊开">
+        <figcaption>3:40 · Texture Editor → Skin → Texture → Layers → Default Design。看右边脸部 UV，以及字幕「在脖子跟脸的下方」。</figcaption>
+      </figure>
+      <p>换到 Skin。Use Color Calibration 没勾，Color、Dark Color、Light Color 都在，Shader Color 还收着。右边是脸、眼和脖子摊开的 UV。口播说把眼睛的阴影分界线画清楚，再在脖子和脸的下方加一条边缘明显的阴影线。笔宽这一帧不抄。</p>
+      <figure>
+        <img src="12.jpg" alt="同一编辑器，裙子 UV 上沿有一条深色边，右侧笔宽 22、不透明度 100">
+        <figcaption>3:48 · 仍是 Skin → Default Design。看裙子 UV 上沿的深色边，以及 Brush Width、Brush Opacity、Editing Mode。</figcaption>
+      </figure>
+      <p>笔还在同一层上。这一帧 Brush Width 是 22，Brush Opacity 100，Layer Opacity 100，Editing Mode 是 UV，Drawing Mode 是 Default，圆笔那一档亮着。裙子 UV 的上沿已经有一条深色边。口播说这和渲染出来的阴影光还是有区别，是手绘补上去的。</p>
+
+      <h3>膝盖补完就停</h3>
+      <figure>
+        <img src="13.jpg" alt="镜头对着腿，膝盖上有一块浅阴影，右边 UV 里能看到对应的深色块">
+        <figcaption>4:08 · 同一 Texture Editor，视口改到大腿和裙子。看膝盖上的阴影，以及字幕「这时候保存阴影的部分就做完了」。</figcaption>
+      </figure>
+      <p>口播说膝盖也加一点边缘明显的阴影。这一帧裙子和腿的 UV 上能看到画上去的深色块，角色膝盖上有一块浅影。字幕说保存阴影的部分做完了；这一帧没有弹出保存框，保存是口播。</p>
+    </section>
+
+    <section class="step">
+      <h2>到摄影棚里看整个人</h2>
+
+      <h3>相机工具进 Photo Booth</h3>
+      <figure>
+        <img src="14.jpg" alt="Photo Booth 的 Facial Expression，Blink 和 Look at Camera 勾着，角色平举双手">
+        <figcaption>4:20 · Photo Booth → Facial Expression。看 Eye Movement 里勾着的 Blink、Look at Camera，以及字幕「我们可以点击相机工具进入到」。</figcaption>
+      </figure>
+      <p>口播说模型差不多改完，点相机工具进渲染界面。画面已经是 Photo Booth，参考图去掉了，背景是灰的。左侧 Facial Expression 亮着。右侧 Eye Movement 里 Blink、Look at Camera 勾着，下面 Synch Gaze 也勾着。Base Expression 的 Neutral、Smiling、Sad、Angry、Happy、Surprised 都是 0，Eyebrows 同样是 0。右下角是暂停和相机按钮。</p>
+
+      <h3>先把风停掉</h3>
+      <figure>
+        <img src="15.jpg" alt="Photo Booth 的 Wind，X Y Z 三轴都是 0，下面有 Reset">
+        <figcaption>4:26 · Photo Booth → Wind。看 X Axis、Y Axis、Z Axis 和 Reset，以及字幕「可以先把风停下来」。</figcaption>
+      </figure>
+      <p>头发还在被风吹时，不好看动作。点 Wind，把 X Axis、Y Axis、Z Axis 都收到 0.000，也可以点下面的 Reset。这一帧三轴已经是 0.000，头发垂直。</p>
+
+      <h3>用待机动作看穿模</h3>
+      <figure>
+        <img src="16.jpg" alt="Poses and Animations 里 Standby 3 被选中，角色双手向前抬起">
+        <figcaption>4:32 · Photo Booth → Poses &amp; Animations → Animations 1 → Standby 3。看抬起的前臂，以及有没有插进袖子。</figcaption>
+      </figure>
+      <p>点 Poses &amp; Animations。右侧是 Animations 1，从 Default、Standby 0 一直排到 Laughing。这一帧 Standby 3 亮着，双手抬到身前。口播说先摆默认的 pose，看动起来什么样、身上的物理要不要再处理。物理骨骼这一下没有单独的面板。</p>
+      <figure>
+        <img src="17.jpg" alt="背面，Standby 2 亮着，长发和裙子分开，一只手伸向侧面">
+        <figcaption>4:48 · 同一列表，改到 Standby 2，镜头转到背后。看头发和裙摆，以及字幕「有一些动作因为幅度过大」。</figcaption>
+      </figure>
+      <p>幅度大的动作会穿模。这一帧是背面，Standby 2 亮着，一只手伸开，长发和裙子分开。口播说幅度过大可能会穿模。如果头发还要做更多的骨编辑，口播说可以拉到外部软件；这一帧没有骨骼界面，也没有导出按钮。</p>
+
+      <h3>观察整模时打开抗锯齿</h3>
+      <figure>
+        <img src="18.jpg" alt="Post-processing 里 Antialiasing 选了 High，Bloom 等选项没勾">
+        <figcaption>5:12 · Photo Booth → Post-processing。看 Antialiasing 的 High，以及没勾的 Bloom、Color Grading、Comics、Motion Blur。</figcaption>
+      </figure>
+      <p>点 Post-processing。Antialiasing 选 High，Low 没选。Bloom、Color Grading、Comics、Motion Blur 都没勾。口播把这一项叫去锯齿，说想观察整个模型时把它打开。字幕这一帧还停在「在你想观察整个模型的时候」，下一句才说出打开。</p>
+    </section>
+  </article>
+</body>
+</html>

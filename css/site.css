@@ -1,0 +1,265 @@
+:root {
+  --paper: #f3efe6;
+  --card: #faf7f1;
+  --ink: #1e1a16;
+  --muted: #6d655b;
+  --line: #ddd4c6;
+  --mark: #b8432f;
+  --mark-soft: #f3dcd6;
+  --shadow: 0 10px 30px rgba(48, 36, 24, 0.05);
+}
+
+* { box-sizing: border-box; }
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: auto;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: visible;
+  min-height: 100%;
+  color: var(--ink);
+  background:
+    linear-gradient(90deg, var(--mark) 0 7px, transparent 7px),
+    var(--paper);
+  font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+a { color: inherit; }
+
+.wrap {
+  width: min(920px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 48px 0 80px;
+}
+
+.mast h1,
+.article h1 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 650;
+  letter-spacing: -0.03em;
+}
+
+.eyebrow,
+.kicker {
+  margin: 0 0 8px;
+  color: var(--mark);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lede,
+.meta,
+.summary,
+.source,
+.step figcaption,
+.empty p {
+  color: var(--muted);
+}
+
+.lede { max-width: 38em; margin: 14px 0 0; }
+
+.navline { margin: 16px 0 0; font-size: 15px; }
+
+.navline a { color: var(--mark); }
+
+.mat {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 0;
+  margin: 18px 0;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.mat img {
+  width: 220px;
+  height: 100%;
+  min-height: 160px;
+  object-fit: cover;
+  background: #e7e1d6;
+}
+
+.mat-text { padding: 14px 16px 16px; }
+
+.mat h3 { margin: 0; font-size: 20px; line-height: 1.35; }
+
+.mat p { margin: 8px 0 0; }
+
+.mat .links a { color: var(--mark); margin-right: 14px; }
+
+.mast-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-end;
+  margin-top: 28px;
+}
+
+#count {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 22px 0 28px;
+}
+
+.filters button {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filters button.on {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.list {
+  display: grid;
+  gap: 14px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  min-height: 124px;
+  text-decoration: none;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.card img,
+.placeholder {
+  width: 180px;
+  height: 100%;
+  min-height: 124px;
+  object-fit: cover;
+  background: var(--mark-soft);
+}
+
+.placeholder {
+  display: grid;
+  place-items: center;
+  color: var(--mark);
+  font-size: 14px;
+}
+
+.card-text { padding: 16px 18px 14px; }
+
+.card h2 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 650;
+}
+
+.summary,
+.source { margin: 6px 0 0; }
+
+.source { font-size: 13px; }
+
+.empty {
+  padding: 28px;
+  border: 1px dashed var(--line);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.empty-title {
+  margin: 0 0 6px;
+  color: var(--ink);
+  font-size: 20px;
+}
+
+.article { width: min(820px, calc(100% - 48px)); }
+
+.back {
+  display: inline-block;
+  margin-bottom: 22px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.meta { margin: 12px 0 0; font-size: 14px; }
+
+.step { margin: 36px 0; }
+
+.step h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.step h3 {
+  margin: 20px 0 6px;
+  font-size: 17px;
+}
+
+.step p { margin: 8px 0; }
+
+.step figure { margin: 12px 0; }
+
+.step img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #e7e1d6;
+}
+
+.step figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+@media (max-width: 680px) {
+  .wrap,
+  .article { width: min(100% - 28px, 920px); }
+
+  .mast h1,
+  .article h1 { font-size: 32px; }
+
+  .card { grid-template-columns: 1fr; }
+
+  .card img,
+  .placeholder {
+    width: 100%;
+    height: 160px;
+  }
+
+  .mat { grid-template-columns: 1fr; }
+
+  .mat img {
+    width: 100%;
+    height: 180px;
+  }
+}

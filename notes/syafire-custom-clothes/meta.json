@@ -1,0 +1,9 @@
+{
+  "slug": "syafire-custom-clothes",
+  "title": "在 VRoid 里用底模贴图画自己的衣服",
+  "category": "costume",
+  "date": "2026-11-25",
+  "source": "How to Create Your Own Custom VTuber Clothes in VRoidStudio 【VTuber/Artist】 https://www.youtube.com/watch?v=BQiDzW9ozG8",
+  "summary": "在 VRoid Studio 0.11.1 里选 Onepiece (Long Sleeve) 底模，用橡皮把贴图擦透明来改出短上衣，再画上云朵；项圈画在 Body 的贴图上。画完不会改名，仍出现在 Tops 列表底部。",
+  "cover": "notes/syafire-custom-clothes/01.jpg"
+}

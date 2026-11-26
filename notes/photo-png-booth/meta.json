@@ -1,0 +1,9 @@
+{
+  "slug": "photo-png-booth",
+  "title": "用 Photo Booth 拍一张能去背的 PNG",
+  "category": "photo",
+  "date": "2026-11-25",
+  "source": "VTuber Tools - #1: Easy PNG! - Tutorials for VTuber Content Creation https://www.youtube.com/watch?v=GhnT4qN3OL8",
+  "summary": "在 VRoid 的 Photo Booth 里定画面尺寸、换纯色或图片背景，再调表情和身体姿势，按底部相机出图。去背时画面上真正打开的是 Photopea 的 Color Range；GIMP 只开到 Select 里的 By Color。",
+  "cover": "notes/photo-png-booth/16.jpg"
+}

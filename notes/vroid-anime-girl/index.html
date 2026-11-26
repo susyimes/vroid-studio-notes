@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>日漫双马尾女生：大眼、团子辫和系带短装 — VRoid 捏人笔记</title>
+  <link rel="stylesheet" href="../../css/site.css">
+</head>
+<body>
+  <article class="wrap article">
+    <a class="back" href="../../index.html">全部笔记</a>
+    <p class="eyebrow">头发</p>
+    <h1>日漫双马尾女生：大眼、团子辫和系带短装</h1>
+    <p class="meta">来源《使用VRoid轻松创建日漫二次元妹纸，太漂亮了~》· 2026-11-25</p>
+    <p>窗口标题是 VRoid Studio 1.11.1，面板是英文。头发分组后半改成韩文名，衣服底图图层写成日文「デフォルト画像」。下面按画面出现的顺序记，数值只写这一帧能读出来的。</p>
+
+    <section class="step">
+      <h2>对着参考收眼型</h2>
+      <figure>
+        <img src="01.jpg" alt="光头模型的正面，右侧是眼睛参数，最右边是一张粉色大眼参考图">
+        <figcaption>眼睛参数页的下半，旁边开着参考图。看 Outer Eye Slant (Y)、Straighten Upper Eyelid、Droopy Eyes、Iris Size 和 Gaze。</figcaption>
+      </figure>
+      <p>模型还是光头。右侧参考是一只又大又圆的粉发眼睛。这一帧外侧眼角 Outer Eye Slant (Y) 是 -0.233，拉直上眼睑 Straighten Upper Eyelid 是 0.326，下垂感 Droopy Eyes 是 0.194，虹膜 Iris Size (X) -0.018、(Y) -0.139，视线 Gaze (Y) -0.085、Gaze Distance 0.035。下眼睑、上下眼睑位移、Scornful Look 和眉毛倾斜都停在 0。滑杆前后还在翻，这些是这一屏的读数，不是锁死的最终值。脸颊上已经有一层淡腮红。</p>
+    </section>
+
+    <section class="step">
+      <h2>手绘中分刘海</h2>
+      <figure>
+        <img src="02.jpg" alt="编辑预设里，深灰色刘海中间有一条从发旋拉到眉心的黄色引导线">
+        <figcaption>Hairstyle 的 Edit Preset。左侧 Freehand Group 2 选中 Hair 6，引导线的控制点从顶中分走到两眼之间。</figcaption>
+      </figure>
+      <p>用 Add Freehand Hair Guides 在刘海正中拉一条线，点从发旋排到眉心，左右刘海盖住额头，发色还是默认深灰。分组名这时还是 Freehand Group 1 和 2，里面是 Hair 3 到 Hair 7。</p>
+    </section>
+
+    <section class="step">
+      <h2>把刘海涂成粉色</h2>
+      <figure>
+        <img src="03.jpg" alt="材质纹理编辑器里，刘海已经是粉色，右侧画布是一块竖着的粉色">
+        <figcaption>Material Texture Editor，Base 的 Default Design。勾着 Highlight Color，没勾 Main Color。笔色 #FE79A8，Hair Group Bumpiness 的 Intensity 在 1.000。</figcaption>
+      </figure>
+      <p>在底色上竖着涂一块粉，刘海从灰变成粉。这一帧笔宽 35、不透明度 100，编辑模式是 UV。高光色开着，主色关着，发组凹凸拉到最右。</p>
+    </section>
+
+    <section class="step">
+      <h2>一节节拼团子辫</h2>
+      <figure>
+        <img src="04.jpg" alt="侧面编辑预设，一串粉色圆发，当前这一节套着黄色控制点和移动轴">
+        <figcaption>Edit Preset，选中韩文分组 당고3。黄色轮廓和移动轴套在一节圆发上，上面已经叠了 당고1、당고2。</figcaption>
+      </figure>
+      <p>分组改成韩文：앞머리 是刘海，뒷머리 是后发，당고 원본 和 당고1、당고2、당고3 是团子。每一节都是一组 Freehand Guides，外圈有控制点，用移动轴把圆发贴到头侧和上一节上。这一帧纹理 Width 是 1.80，Highlights Position 和 Offset 都是 0.00，这三个复选框没勾。后发这一侧还是深红，刘海已经是亮粉，材质列表里两种颜色分开。</p>
+    </section>
+
+    <section class="step">
+      <h2>后发下缘留一块头皮</h2>
+      <figure>
+        <img src="05.jpg" alt="背面看，深灰色后发底部中央露出一小块网格头皮，两侧是粉色团子辫">
+        <figcaption>Edit Preset 的背面，Freehand Group 1，Hair 1 到 Hair 18。后发下缘正中是一块露出头皮的三角网格。</figcaption>
+      </figure>
+      <p>后发铺成一整片深灰，下缘收到后颈，只留一小块头皮，两串团子从左右接出来。纹理 Width 仍是 1.80，高光位置和 Offset 在 0，复选框没勾。身上这时是浅色上衣，还不是后面的短装。</p>
+    </section>
+
+    <section class="step">
+      <h2>停一下脸型</h2>
+      <figure>
+        <img src="06.jpg" alt="正面脸，黄刘海、蓝侧发、红团子，右侧是皮肤颜色和脸型滑杆">
+        <figcaption>Face &gt; Skin &gt; Custom。右侧从肤色到 Fem Face。这一下刘海、侧发、团子不是同一个颜色。</figcaption>
+      </figure>
+      <p>皮肤自定义这一帧能读到 Color #FAEBDE、Dark Color #EFBAA3、Light Color #FFF7F1。颧骨 Cheekbones Position (Z) 0.004，几乎在中间；Sunken Cheeks 0.604；Chin Roundness 0.247；Chin Width 和 Fem Face 都在最右，读数 1.000。下颌位置、下巴长短、下巴尖、Jaw Angle 都是 0.000。头发这时是黄刘海、蓝侧发、红团子，和前后的全粉不是同一状态，画面没有显示是在这里把颜色改回去的。</p>
+    </section>
+
+    <section class="step">
+      <h2>修眼白</h2>
+      <figure>
+        <img src="07.jpg" alt="眼白纹理编辑器，画布下半被涂成白色，上半还是浅粉">
+        <figcaption>Texture Editor 的 Scleras，图层 Default Image，Editing Mode 是 UV。画布下缘是一块白，中间还留着一点粉。</figcaption>
+      </figure>
+      <p>眼白下缘被涂成白，眼珠下面更干净，上半还是浅粉底。笔宽 60，不透明度 100。在这之前，Eye Highlights 里已经在透明图层上点过两小块灰高光。紧接着眉毛 Eyebrows 用很细的笔，在 World 模式画了一道眉。</p>
+    </section>
+
+    <section class="step">
+      <h2>鼻翼加一圈浅粉</h2>
+      <figure>
+        <img src="08.jpg" alt="鼻影纹理编辑器，鼻子 UV 周围有一圈浅粉色，脸上能看到腮红">
+        <figcaption>Texture Editor 的 Nose Contour，选中 Layer 3，Editing Mode 是 World。笔色 #FFAA97，笔宽 31，不透明度 40。</figcaption>
+      </figure>
+      <p>笔在鼻孔周围扫一圈浅粉，正面看鼻翼和眼下更软。腮红比这更早，改刘海之前脸颊上就有，这里没有再开一张皮肤大图层来重画。</p>
+    </section>
+
+    <section class="step">
+      <h2>加粗上眼线</h2>
+      <figure>
+        <img src="09.jpg" alt="侧面眼睛，上眼睑有一条深紫色眼线，右侧是眼线纹理编辑器">
+        <figcaption>Texture Editor 的 Eyeliner。笔色 #56154C，笔宽 6，不透明度 100，Editing Mode 是 World。</figcaption>
+      </figure>
+      <p>眼线画在上眼睑外缘，颜色偏紫，笔很细。下眼睑没有同样的一条粗线。侧面也能看到脸颊那层淡粉。</p>
+    </section>
+
+    <section class="step">
+      <h2>刘海之间加暗缝</h2>
+      <figure>
+        <img src="10.jpg" alt="刘海特写，材质画布上有几道竖着的深粉色笔触">
+        <figcaption>Material Texture Editor，Base 的 Default Design。勾着 Highlight Color。笔色 #EC548F，笔宽 10，Editing Mode 是 World。</figcaption>
+      </figure>
+      <p>在粉底上竖着拉几道更深的粉，刘海之间就分出缝。Hair Group Bumpiness 仍是 1.000，主色没勾。暗缝之后，刘海引导参数里能看到 Cross Section 选了 Diamond，Fit to Head (Z) 在最右，刘海贴着额头。</p>
+    </section>
+
+    <section class="step">
+      <h2>给团子辫生成骨骼</h2>
+      <figure>
+        <img src="11.jpg" alt="编辑骨骼界面，正面是齐刘海和粉色团子辫，左侧未分组里有一项韩文发名">
+        <figcaption>Edit Bones，Front。Auto-generate Bone 打开，Bone Groups 读数 14。Ungrouped Hair 里有一项没勾选的 더듬이。</figcaption>
+      </figure>
+      <p>刘海和团子这时已经统一成粉，身上还是黑色背心。这里给头发自动生成骨骼，未分组里留着名叫 더듬이 的发。下一秒在编辑预设里，这条发被拉成后背一条细束，用移动轴摆位置。</p>
+    </section>
+
+    <section class="step">
+      <h2>袖口画交叉粉绳</h2>
+      <figure>
+        <img src="12.jpg" alt="深色袖口上画着交叉的粉色绳子，末端收成一个结">
+        <figcaption>衣服 Texture Editor，Dress (Long Sleeve) 的 Layer 2。视口是交叉粉绳和下面的结，笔色是深色 #332552。</figcaption>
+      </figure>
+      <p>衣服列表里同时有 Dress (Long Sleeve)、Hoodie 和 Long Coat (High Neck)，底图图层名是「デフォルト画像」。这一帧选中 Dress 的 Layer 2，笔色偏深，袖口上已经能看到交叉的粉绳，末端收成结。粉绳本身更像画在下面的 Layer 1。进衣服之前，Skin Overlay 还在袜筒上点过一个小粉心，完成全身时不一定对着镜头。</p>
+    </section>
+
+    <section class="step">
+      <h2>背后的白带上描叉</h2>
+      <figure>
+        <img src="13.jpg" alt="背面衣服，两条白带子交叉处用深色描出 X，右侧 UV 上是对应的斜线">
+        <figcaption>Texture Editor 里选中 Hoodie 的「デフォルト画像」。笔色 #574C74，笔宽 18，不透明度 100，Editing Mode 是 UV。</figcaption>
+      </figure>
+      <p>交叉绳画在连帽衫这层，不是刚才的 Dress。白带交叉的位置用深灰紫描成 X，右侧 UV 上是同一笔的斜线。胸前成品也是白底上两道同样的叉，袖口留着粉绳。</p>
+    </section>
+
+    <section class="step">
+      <h2>收一下下摆和腰</h2>
+      <figure>
+        <img src="14.jpg" alt="侧面穿着短装的角色，右侧是衣服版型滑杆">
+        <figcaption>衣服 Texture Editor 的 Parameters。Dress (Long Sleeve) 展开着。看 Hem Spread、Waist Width、Crease、Hem Length、Hood (Smaller)。</figcaption>
+      </figure>
+      <p>侧面对着版型。这一帧 Hem Spread 在最左，读数 -70.000；Sleeve Thickness 和 Sleeve Taper (Narrower) 在中间，都是 0.000；光标停在 Waist Width，读数 86.250；Crease、Hem Length、Hood (Smaller) 都在最右，读数 100.000。袖口粉绳和下摆长度在侧面能直接看到。</p>
+    </section>
+
+    <section class="step">
+      <h2>头尖收到底，锁骨抹平</h2>
+      <figure>
+        <img src="15.jpg" alt="体型页的正面全身，深色短裤和白胸襟，右侧是身体滑杆，膝盖有粉色">
+        <figcaption>Body &gt; Whole Body &gt; Custom。看 Head Tip (Y)、Neck Thickness、Neck Width、Soften Collarbone。膝盖上有一层粉。</figcaption>
+      </figure>
+      <p>体型页停得很短。这一帧 Fem Height、Masc Height、Body Size 都是 0.000；Head Size 0.062，Head Width 0.000；Head Tip (Y) 拉到最左，读数 -1.000；Neck Length 0.026，Neck Thickness -26.432，Neck Width -9.692，圆点都在中线左边；Soften Collarbone 在最右，100.000；Show Adam's Apple 是 0.000，Shoulder Width 0.093。画面上脖子偏细，锁骨被抹平。膝盖的粉是更早在皮肤纹理里涂的，关纹理时弹出过 Whole Body 的保存框。</p>
+    </section>
+
+    <section class="step">
+      <h2>摆一个完成姿势</h2>
+      <figure>
+        <img src="16.jpg" alt="浅灰背景上的全身，粉色团子辫，白胸襟交叉绳，深色短裤，白袜白鞋">
+        <figcaption>浅灰背景上的侧身站姿。看齐刘海、双团子辫、白胸襟上的交叉绳、深色短裤和袖口粉绳。</figcaption>
+      </figure>
+      <p>摆姿势之前，表情编辑器里切过 Smiling 和 Closed。闭眼那一帧 Eyes 的 Closed 在最右，眼睛是闭上的。最后这一帧是侧身站着：齐刘海、双团子辫、白底交叉绳短装、深色短裤、白袜和白鞋。</p>
+    </section>
+  </article>
+</body>
+</html>

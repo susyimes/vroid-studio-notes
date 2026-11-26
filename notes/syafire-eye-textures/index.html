@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>自己画眼睛贴图：导出虹膜、剪贴上色再导回 — VRoid 捏人笔记</title>
+  <link rel="stylesheet" href="../../css/site.css">
+</head>
+<body>
+  <article class="wrap article">
+    <a class="back" href="../../index.html">全部笔记</a>
+    <p class="eyebrow">眼睛</p>
+    <h1>自己画眼睛贴图：导出虹膜、剪贴上色再导回</h1>
+    <p class="meta">How To Make Custom Eye Textures In VRoidStudio · Syafire · 2026-11-25</p>
+
+    <section class="step">
+      <h2>参考收进 Eye Ref，再拖进 PureRef</h2>
+      <figure>
+        <img src="01.jpg" alt="VRoid 主页上叠着资源管理器和一块眼睛参考拼图：线稿、分步上色图、蓝眼睛和绿眼睛">
+        <figcaption>主页还开着。看左边那块参考拼图，以及资源管理器的路径 Desktop / Eye Ref。右边浅蓝长发、红衣服的人是作者自己的形象，不是正在改的模型。</figcaption>
+      </figure>
+      <p>口播先在 Pinterest 搜 anime eyes，把想画的图存下来。画面上文件夹不叫 eye references，资源管理器停在桌面的 Eye Ref，里面是眼睛缩略图。PureRef 里已经拖进了线稿、一张标题能看出 How to color eyes 的分步图，还有成排的蓝眼睛和绿眼睛。口播说按住 Ctrl 和 Alt 再拖，是把单张参考缩小；按住右键拖，是挪整块画布。这些快捷键画面上没有标出来。</p>
+    </section>
+
+    <section class="step">
+      <h2>在脸部编辑器里打开虹膜贴图</h2>
+      <figure>
+        <img src="02.jpg" alt="脸部编辑器的 Texture 页，Irises 展开，右边是两只橙红色默认虹膜贴在透明格子上">
+        <figcaption>标题栏是 tutroslava* - VRoidStudio 0.11.1，顶部是 Face Editor。看 Texture 标签，以及左边展开的 Irises。右边贴图才是要导出的那张。</figcaption>
+      </figure>
+      <p>正在改的是 Your Avatars 里蓝发、白衬衫、橙领结那只。口播说这是之前长发教程用的例子。进来时 Design 列表里光标停在 Eyes，再点旁边的 Texture。左边从上到下是 Mouth、Scleras、Eyeline、Eyelashes、Eyebrows、Irises、Eye Highlights、Face Skin。Mouth 先是展开的，口播把那块浅色贴图叫舌头，这次不改。展开 Irises，点里面的贴图，右边出现两只并排的虹膜：上沿偏蓝，下沿橙红，中间发黑，底是透明格子。画布左边竖条是箭头、笔、橡皮、滴管。口播说可以就在 VRoid 里画，但笔太少，所以要导出；Paint Tool SAI 或其他软件也行，示范用的是 Photoshop。</p>
+    </section>
+
+    <section class="step">
+      <h2>右键默认图层，导出成 TestModelEyeTexture</h2>
+      <figure>
+        <img src="03.jpg" alt="虹膜图层上的右键菜单，光标停在 Export，菜单里还有 Import">
+        <figcaption>Face Editor，Texture，Irises 下面的默认图层。看右键菜单，光标在 Export 上。同一张菜单里还有 Import，等下导回要用。</figcaption>
+      </figure>
+      <figure>
+        <img src="04.jpg" alt="导出对话框，路径是桌面的 Eye Ref，文件名打到 TestModelEyeText">
+        <figcaption>导出窗口。看路径 Desktop / Eye Ref，以及下面的文件名框。</figcaption>
+      </figure>
+      <p>在虹膜那一行右键。菜单里能看清的是 Toggle Visibility、Toggle Alpha Lock、Duplicate、Remove、Import、Export、Rename，点 Export。保存位置是刚才的 Eye Ref。文件名框比较窄，先露出 TestModelEyeText；进 Photoshop 之后标签写全是 TestModelEyeTexture.png。右边笔刷仍停在一块暗红色上，这不是眼睛的颜色，不要跟着调。</p>
+    </section>
+
+    <section class="step">
+      <h2>Photoshop 直接打开这张图</h2>
+      <figure>
+        <img src="05.jpg" alt="Photoshop 里打开的虹膜贴图，透明底上并排两只蓝橙色眼睛，标签是 TestModelEyeTexture.png">
+        <figcaption>文档标签。看文件名 TestModelEyeTexture.png，以及画布上两只还没改过的虹膜。</figcaption>
+      </figure>
+      <p>开始菜单里点的是 Adobe Photoshop 2021。用打开，回到桌面的 Eye Ref，不要新建一张空白画布。打开后再加一层，原来的留在下面。口播说会把旧图层锁上；这一步画面上还看不出锁，下一张图层面板才能对上两层的关系。</p>
+    </section>
+
+    <section class="step">
+      <h2>右键 Mode，勾上 Always On Top</h2>
+      <figure>
+        <img src="06.jpg" alt="PureRef 右键菜单的 Mode 子菜单，Always On Top 前面有勾，快捷键是 Ctrl+Shift+A">
+        <figcaption>参考窗浮在已经打开的贴图上面。看 Mode 子菜单里打勾的 Always On Top，快捷键写着 Ctrl+Shift+A。旁边还有 Always On Bottom。</figcaption>
+      </figure>
+      <p>画之前把 PureRef 挪到贴图上。在参考窗的空白处右键，进 Mode，勾 Always On Top，它就会一直盖在 Photoshop 上面。这时文档标签已经是 Layer 2，两只虹膜仍是原来的蓝和橙，还没开始铺绿。右边色轮停在纯红，那是还没选眼睛的颜色。</p>
+    </section>
+
+    <section class="step">
+      <h2>新图层剪贴到原来的虹膜上</h2>
+      <figure>
+        <img src="07.jpg" alt="Photoshop 图层面板被拉近，Layer 2 左边有向下的剪贴箭头，缩略图是绿块，Layer 1 缩略图仍是两只虹膜">
+        <figcaption>画面被拉近到图层面板。看 Layer 2 名字左边那个向下的箭头，以及它下面的 Layer 1。混合模式是 Normal，不透明度 100%，填充 100%。</figcaption>
+      </figure>
+      <p>口播是按住 Alt，在 Layer 2 和 Layer 1 的接缝上点一下。点完之后 Layer 2 被剪贴到 Layer 1：上面一层的缩略图是一块绿，下面一层的缩略图仍是原来的两只虹膜。这样画在 Layer 2 上的颜色出不了 Layer 1 已经有像素的椭圆，也不会改到原来那张图。锁的那一排图标都在，但这一帧看不出 Layer 1 有没有被锁上。笔刷列表里能看到 Soft Round、Hard Round，以及名字里带 Pressure Size、Pressure Opacity 的几支。口播是选一支带压感的笔再打开压感，看不清具体点亮了哪一支。</p>
+    </section>
+
+    <section class="step">
+      <h2>先铺深绿，再往亮黄走，高光放在同一侧</h2>
+      <figure>
+        <img src="08.jpg" alt="贴图被放大，右边一只虹膜被涂成整块绿，颜色停在椭圆里面，左边还露着原来的橙红色">
+        <figcaption>剪贴之后的第一遍。看绿色有没有涂到透明格子外面，左边那只还是原来的虹膜。</figcaption>
+      </figure>
+      <figure>
+        <img src="09.jpg" alt="两只绿虹膜都画完，大白点都偏右上，左眼另有一颗小高光，笔刷尺寸是 15 px">
+        <figcaption>画完的两只。看白点是不是都在虹膜的同一侧。笔刷尺寸框这时是 15 px，色轮几乎是白的。</figcaption>
+      </figure>
+      <p>第一遍把椭圆铺满。这一下的色轮是 #4B851B，旁边读数是 R 75、G 133、B 27，是比较暗的绿。口播习惯先从深色起手，上缘和瞳孔再压深一点，中心用带压感的笔提亮。接着把颜色往黄里带，亮部那下色轮是 #ABDC28（R 171、G 220、B 40），刷在虹膜靠下的位置。靠下再点一串小圆点，一侧加一小卷绿线，两只眼睛同样不做成镜像。大高光那一下尺寸框是 25 px，收到小高光时是 15 px，颜色是 #FAFFF6。两只眼睛的大白点都落在虹膜偏右上。左眼下面另有一颗扁的小高光，右眼没有在对称的位置再复制一颗。口播说光从同一侧来，不要把一只眼睛的高光镜像到另一只。</p>
+    </section>
+
+    <section class="step">
+      <h2>另存第二份，不要覆盖刚导出的那张</h2>
+      <figure>
+        <img src="10.jpg" alt="另存对话框，Eye Ref 里已有 TestModelEyeTexture，文件名框是 TestModelEyeTexture2">
+        <figcaption>另存窗口。看文件夹里那张橙红色的 TestModelEyeTexture 还在，文件名框写的是 TestModelEyeTexture2。类型框是 All Files (*.*)。</figcaption>
+      </figure>
+      <p>不要直接盖掉刚从 VRoid 导出的那张，口播说要留着以便退回。文件名写成 TestModelEyeTexture2。类型框停在 All Files，没有改成某一种图片格式；口播说这一份要是 PNG。关 Photoshop 时口播自己没再存工程，只留了这张图，又说平常还是应该把工程存下来。</p>
+    </section>
+
+    <section class="step">
+      <h2>回到虹膜，新建图层后再导入</h2>
+      <figure>
+        <img src="11.jpg" alt="VRoid 的 Import 窗口开在 Eye Ref，里面能看到 TestModelEyeTexture 和 TestModelEyeTexture2，脸上还是原来的橙红虹膜">
+        <figcaption>回到 Face Editor、Texture、Irises。看 Import 窗口里并排的两个文件名，以及窗口后面还没换上的橙红虹膜。类型下拉能筛 jpg、jpeg、png。</figcaption>
+      </figure>
+      <p>路径和导出时一样：Face Editor，Texture，Irises。图层那一排有上下箭头和加号。先点加号，多出来的一层名字就是 Layer，排在 Default Image 上面，再在这层上右键选 Import。文件夹里两张都在，要开的是 TestModelEyeTexture2，不要把橙红色的默认图又导回去。导进去之后，这一层盖住 Default Image，脸上的虹膜换成刚画的绿眼睛。口播说更稳的做法是高光不要画进虹膜，单独去画 Eye Highlights；这次已经画在一起了。</p>
+    </section>
+
+    <section class="step">
+      <h2>把 Eye Highlights 上的旧高光擦掉</h2>
+      <figure>
+        <img src="12.jpg" alt="Eye Highlights 的贴图是两个浅色圆，里面的小高光已经空了，脸上仍是绿色虹膜">
+        <figcaption>左边展开的是 Eye Highlights，不是 Irises。看右边两个圆里还有没有小色块，再看脸上的绿眼睛还在不在。</figcaption>
+      </figure>
+      <p>画进虹膜的白点和 Eye Highlights 这一层原来的高光会叠成两套。展开 Eye Highlights，它自己有一张贴图，先前是两个浅圆里各有一小块高光。口播说用左边竖条里的橡皮去擦。擦完之后这两个圆里只剩浅底，虹膜上自己画的高光还留着，脸上不再多出第二套亮点。笔刷色块这时是白的，但这一步用的是橡皮，不是在往上加白。</p>
+    </section>
+
+    <section class="step">
+      <h2>眼白用同一套列表加一笔灰</h2>
+      <figure>
+        <img src="13.jpg" alt="Scleras 展开，眼白贴图上沿有一点灰，中间是白的并盖着三角线，脸上是画好的绿眼睛">
+        <figcaption>左边这次展开的是 Scleras。看眼白贴图的上沿和中间，以及右上角笔刷颜色 #8A8484。脸上是导回之后的眼睛。</figcaption>
+      </figure>
+      <p>同一条列表再展开 Scleras。笔刷颜色改成 #8A8484，是一块灰。眼白贴图上沿多了一点灰，中间仍是白的，上面盖着三角线，左边图层里有一行 Guide，线是引导，不是新画的花纹。口播说这点阴影让眼白不那么平、更像二次元；又说 VRoid 的笔没有压感，眼白这种渐变更想拿回 Photoshop。阴影很轻，脸上几乎看不出一块很深的颜色。Eyeline 展开时能看到 Base Color 和 Shade Color。口播说眼线、睫毛以及脸上的其他贴图也是同一套导出再导回，这条视频里没有再做。</p>
+    </section>
+  </article>
+</body>
+</html>

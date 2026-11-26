@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>可爱 VRoid 脸：虹膜、眼睛、眉毛、阴影和参数 — VRoid 捏人笔记</title>
+  <link rel="stylesheet" href="../../css/site.css">
+</head>
+<body>
+  <article class="wrap article">
+    <a class="back" href="../../index.html">全部笔记</a>
+    <p class="eyebrow">脸型</p>
+    <h1>可爱 VRoid 脸：虹膜、眼睛、眉毛、阴影和参数</h1>
+    <p class="meta">VTanjo · Tips For Making CUTE VRoid Faces [EASY] · 约 9.1 万次播放 · 2026-11-25</p>
+
+    <section class="step">
+      <h2>虹膜</h2>
+      <h3>暗色贴着方块左下角，亮色留在右上方</h3>
+      <figure>
+        <img src="01.jpg" alt="色轮放大：色相停在蓝紫，方块里的选色圈几乎贴在左下角">
+        <figcaption>画笔颜色被放大。看色相环停在蓝紫，方块里的小圈是不是贴着左下角，而不是方块正中的纯灰。</figcaption>
+      </figure>
+      <p>动手前口播要先关掉线、阴影和边缘光，方便看贴图；画面上当时停在 Look 的 Rim Light。贴图可以右键图层点 Export，再拿去别的软件画，口播说免费的可以用 Krita。选色时口播说：想亮就不要太灰，色点放在方块的上方或中部、再靠右；黑和灰不要用纯黑纯灰，先选一个色相，再让色点几乎贴住方块左下角。这一帧就是后一种，色相在蓝紫，色点贴着左下。阴影色的口播是：吸住底色，色相环往左或往右拧一格，再略往下、往右。</p>
+      <h3>自己铺一层，中间收深</h3>
+      <figure>
+        <img src="02.jpg" alt="贴图编辑器的 Irises，脸上是绿色眼睛，色点在绿色方块的右上方">
+        <figcaption>Texture Editor → Irises → Texture → Layers，选中 Default Design。看右侧色点：在方块偏右上，不在左下角。</figcaption>
+      </figure>
+      <figure>
+        <img src="03.jpg" alt="单只虹膜被放大，绿色从边缘淡到中心发深，笔刷停在下缘">
+        <figcaption>同一层 Default Design，虹膜 UV 拉近。看颜色是不是四周浅、中心深，不要涂成一块平绿。</figcaption>
+      </figure>
+      <p>进 Irises，在 Default Design 上盖掉默认的棕色虹膜。铺绿色之前，她用接近黑的棕色把瞳孔涂实，笔宽读到 300，色值是 #171615，用的是喷枪。绿色这一笔，色点在方块右上方，对应口播说的亮色位置。接着把虹膜放大，从外圈往中心收：外圈是较浅的绿，中心压深。口播说瞳孔的形状和颜色没有固定画法，要看参考，自己试。</p>
+    </section>
+
+    <section class="step">
+      <h2>眼睛</h2>
+      <h3>主要高光只放在一侧</h3>
+      <figure>
+        <img src="04.jpg" alt="Eye Highlights 里，白色高光只在虹膜圆盘左侧有一小块">
+        <figcaption>Texture Editor → Eye Highlights → Layer 1，Use Color Calibration 已勾。看 UV 圆盘：白点在左侧，不是左右各一块。</figcaption>
+      </figure>
+      <p>高光画在 Eye Highlights 的 Layer 1 上，颜色是白，色值 #FFFFFF，喷枪，笔宽 36，不透明度 2。白点落在虹膜圆的左侧，没有在对面再补一块对称的。口播说主要高光不要开镜像，否则两只眼睛会看起来斗鸡眼，并说给了对比；对比时画面切回角色，没有并排的参数表。眼白口播说看风格，但不要用饱和的红去涂，否则像充血。睫毛口播说可有可无，这一段她跳过了。</p>
+      <h3>眼褶画在眼睑上，不画在脸皮上</h3>
+      <figure>
+        <img src="05.jpg" alt="Eyelid 面板，眼睑 UV 上只有一条很细的浅色线">
+        <figcaption>Texture Editor → Eyelid → Layer 1。看那条细线贴在上眼睑的 UV 上，脸上还没有眼褶。</figcaption>
+      </figure>
+      <p>眼褶不要画进脸部皮肤，眼影除外。口播说折痕放在眼睑贴图里。画面上是 Eyelid 的 Layer 1，Use Color Calibration 没勾，上眼睑 UV 里只拉了一条很细的线，预览里眼睛上方刚露出一条浅痕。</p>
+      <h3>眼线自己画一条带尾的</h3>
+      <figure>
+        <img src="06.jpg" alt="Eyeliner 面板，深红色眼线在外眼角拉出一条尾巴">
+        <figcaption>Texture Editor → Eyeliner → Layer 1。看眼线从眼头收到外眼角，尾巴往外伸。</figcaption>
+      </figure>
+      <p>眼线用自己的贴图，不要只留默认。这一帧在 Eyeliner 的 Layer 1 上画一条偏深的红褐线，外眼角拉出尾巴。口播说基础画法是眼线两侧再加一笔更浅的，中间留一笔亮的；浅色那两笔在这张画面上还没出现。口播还说眼线越宽、眼睛越长越可爱，越短越小越成熟，这是后面参数段的事。</p>
+    </section>
+
+    <section class="step">
+      <h2>眉毛</h2>
+      <figure>
+        <img src="07.jpg" alt="Eyebrows 面板，眉尾是深棕色，眉头正在用更浅的颜色扫">
+        <figcaption>Texture Editor → Eyebrows → Layer 1，Use Color Calibration 已勾。看眉毛：尾端更深，笔刷圈压在靠近眉头的一段。</figcaption>
+      </figure>
+      <p>眉毛也是自己画。口播说要柔的话，尾端用深色，眉头用浅色。画面上眉身已经是一条深棕，喷枪正在眉头这一段扫更浅的颜色，所以靠近中间的一头比尾巴淡。形状本身口播说随角色，没有再给固定弧度。</p>
+    </section>
+
+    <section class="step">
+      <h2>阴影</h2>
+      <figure>
+        <img src="08.jpg" alt="Skin 的 Layer 1，脸部 UV 的下巴两侧各有一块肤色暗部">
+        <figcaption>Texture Editor → Skin → Layers。蓝条在 Layer 1，下面还有 Default Design。Use Color Calibration 没勾。看 UV 下巴两侧的两块暗色，不要涂进眼窝和脸心。</figcaption>
+      </figure>
+      <p>口播说她用的是旧版 VRoid，嘴唇、眼影、脸颊、鼻子是分开的，她不喜欢这样，所以把这些分类删回脸部贴图，再在脸上一起画。右键图层时菜单里能看见 Delete。先用线在发际和眼周标出阴影该在的位置，再在 Skin 的 Layer 1 上画。这一帧暗部落在下巴两侧，是一条贴着下颌的肤色，脸心还是亮的。接着会在同一张 UV 的嘴缝上拉一条细线，当简单的唇线。口播说颜色继续用前面的选色方法，风格按自己平时的画法。</p>
+    </section>
+
+    <section class="step">
+      <h2>脸部参数</h2>
+      <h3>虹膜间距拉开一点</h3>
+      <figure>
+        <img src="09.jpg" alt="Face 的 Irises 参数，Gaze Distance 是 0.100，两只绿眼睛略向外">
+        <figcaption>Face → Irises → Custom。看右侧四根：Iris Size (X)、Iris Size (Y)、Gaze (Y)、Gaze Distance。</figcaption>
+      </figure>
+      <p>Face → Irises。这一帧 Iris Size (X) 是 0.033，Iris Size (Y) 是 -0.400，Gaze (Y) 是 -0.117，Gaze Distance 是 0.100，间距这根的圆点在中线右边。口播说间距她习惯放在 0.1 左右，再小就会显得斗鸡眼；大小和视线看角色。瞳孔越大越幼，也是口播，这一帧的虹膜尺寸并没有往大里推。眉毛参数她几乎没动：Eyebrows Tilt 是 -0.125，Eyebrows Position (Y) 是 -0.800，后面能看见的几根都是 0.000。口播说眉毛看角色，没有再讲。</p>
+      <h3>眼睛拉宽拉高，下垂另说</h3>
+      <figure>
+        <img src="10.jpg" alt="Face 的 Eyeliner 参数，光标停在 Eye Size Y 0.921，眼睛又宽又高">
+        <figcaption>Face → Eyeliner → Custom。光标在 Eye Size Y 上。看眼睛相对脸有多大，外眼角是不是略往上。</figcaption>
+      </figure>
+      <p>眼型滑杆在 Face → Eyeliner，不是单独的 Eyes。光标拖着 Eye Size Y。这一帧 Eye Size X 0.696，Eye Size Y 0.921，Eyes Position (Y) 0.242，Eyes Position (X) -0.264，Rotate Eye Socket -0.797，Inner Eye Slant (Y) -1.000，Reduce Inner Slant 0.000，Outer Eye Slant (Y) 0.330，Straighten Upper Eyelid 0.498，Straighten Lower Eyelid 0.000，Move Upper Eyelid Down 0.674，Move Lower Eyelid Up 1.000。脸上眼睛又宽又高，外眼角略翘。口播说越宽越长越可爱，越短越小越成熟；成熟也可以眼睛仍宽、但彼此靠拢，要几根一起看。同一列再往下，稍后 Droopy Eyes 停在 0.366，光标在这根上。口播说下垂更软，不往下垂则更像傲娇。</p>
+      <h3>嘴和脸的长短</h3>
+      <figure>
+        <img src="11.jpg" alt="Face 的 Mouth 参数，女性上唇加厚是 0，女性下唇加厚是 11.454">
+        <figcaption>Face → Mouth → Custom。光标在 Thicker Upper Lip (Fem) 那一行。看 Fem 和 Masc 四根加厚各是多少。</figcaption>
+      </figure>
+      <p>Face → Mouth。唇色是 #9D5657。Mouth Width 0.172，Mouth Position (Y) 0.335，Mouth Corners 0.000，Mouth (Z) -0.370，Thinner Lips 0.000。Thicker Upper Lip (Fem) 是 0.000，光标指着这一行；Thicker Lower Lip (Fem) 是 11.454，Thicker Upper Lip (Masc) 是 30.837，Thicker Lower Lip (Masc) 和 Vampire Teeth (Lip) 都是 0.000。口播说她不用女性加厚，中间会往里瘪，像填充做坏了，所以改用男性下唇；这一帧男性下唇仍是 0.000，数值被推高的是女性下唇和男性上唇。鼻子口播说越高越小越幼，越长越低越成熟，她只是在鼻子面板上拨了几根，标签和数字对不齐的不记。切到脸的 Skin 时，Chin Roundness 是 0.137，Chin Length 是 -0.176，Fem Face 推到 1.000。口播说脸越长越成熟，越短越圆越幼。</p>
+      <h3>头宽往左收，脸会更窄</h3>
+      <figure>
+        <img src="12.jpg" alt="Body 的 Whole Body，光标按在 Head Width 上，头比刚才窄">
+        <figcaption>Body → Whole Body → Custom。光标在 Head Width。Head Tip (Y) 的圆点在最左，其余身体滑杆还在中间。</figcaption>
+      </figure>
+      <p>最后到 Body → Whole Body。光标按在 Head Width 上，这一帧是 -0.828，Head Tip (Y) 是 -1.000，Masc Height、Body Size、Head Size、脖子和肩膀那几根都是 0.000。再往后 Head Width 被推到 -1.000，头更窄。口播说头宽越低越成熟，越宽越软、越幼；这一段她是在往窄的那边示意。</p>
+    </section>
+  </article>
+</body>
+</html>

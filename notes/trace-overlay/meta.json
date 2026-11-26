@@ -1,0 +1,9 @@
+{
+  "slug": "trace-overlay",
+  "title": "免安装穿透描图：把参考图叠在脸上",
+  "category": "face",
+  "date": "2026-11-25",
+  "source": "VRoid 捏脸救星！无需安装的“穿透描图”神器 (免费开源) https://www.bilibili.com/video/BV1ywqxBqEB2/",
+  "summary": "用免安装的 VRoid Reference Overlay 把参考图置顶盖在 VRoid 脸上，调透明度后锁定穿透，就能直接拖面部参数、在编辑纹理里描线。",
+  "cover": "notes/trace-overlay/06.jpg"
+}

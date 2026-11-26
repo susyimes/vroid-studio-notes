@@ -1,0 +1,9 @@
+{
+  "slug": "better-face-texture",
+  "title": "在 Vroid 中制作更好的面部贴图",
+  "category": "texture",
+  "date": "2026-11-25",
+  "source": "在 Vroid 中制作更好的面部贴图！ https://www.bilibili.com/video/BV1yXa76kEpg/",
+  "summary": "删掉默认皮肤层后，在 Layer 1 上用浅底、一圈暗部和很浅的高光画出赛璐璐肤色，再把边缘模糊开。套上头发、闭上眼时这层贴图仍留在脸上。",
+  "cover": "notes/better-face-texture/14.jpg"
+}

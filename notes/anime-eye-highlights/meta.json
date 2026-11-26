@@ -1,0 +1,9 @@
+{
+  "slug": "anime-eye-highlights",
+  "title": "抛物面眼睛的视差、折射和多层高光",
+  "category": "eyes",
+  "date": "2026-11-25",
+  "source": "【Blender】李织烟 眼睛抛物面视差折射镜面高光 https://www.bilibili.com/video/BV17DbR6ZEmM/",
+  "summary": "这条 Blender 成片把二次元眼睛拆成浅抛物面、视差折射和几层不同颜色的高光。对照到 VRoid 时，眼睛比写实略大，高光在眼睛贴图上分成两三层，不要堆在正中。",
+  "cover": "notes/anime-eye-highlights/02.jpg"
+}

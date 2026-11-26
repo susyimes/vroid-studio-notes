@@ -1,0 +1,9 @@
+{
+  "slug": "paper-hair-bones",
+  "title": "Paper朱 p05 VRoid 头发绑骨",
+  "category": "hair",
+  "date": "2026-11-25",
+  "source": "【Vroid教程】从零开始的二次元老婆/虚拟偶像全流程教程 彻底改变MMD制作流程的新方向！轻松成为VTB虚拟偶像！ p05 4vroid头发绑骨 https://www.bilibili.com/video/BV19L4y157aS/?p=5",
+  "summary": "在英文版 VRoid 1.5.0 里用 Edit Hair Bounce 自动生成骨骼，把刘海和耳侧不该动的发片移出骨组，再按示意图理解 Bones、Fixed Point、Stiffness、Gravity 和 Hit Radius。",
+  "cover": "notes/paper-hair-bones/16.jpg"
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "vroid-ears-redone",
+  "title": "用头发手绘组做猫耳、兔耳和一上一下的垂耳",
+  "category": "ears",
+  "date": "2026-11-25",
+  "source": "[Tutorial] How I do my ears in Vroid redone! https://www.youtube.com/watch?v=gw2fax5vI34",
+  "summary": "兽耳不在脸部参数里，是 Hair Editor 的 Freehand Group。猫耳从下往上画，耳内另铺一层，Fixed Point 把晃动留在耳尖；兔耳把外壳和内侧分成两组骨头，垂耳要关掉对称、左右分开画。",
+  "cover": "notes/vroid-ears-redone/01.jpg"
+}

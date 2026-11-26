@@ -1,0 +1,9 @@
+{
+  "slug": "mari-yume-beginner",
+  "title": "免费做 3D VTuber：样本、格子裙贴图和 VSeeFace",
+  "category": "other",
+  "date": "2026-11-25",
+  "source": "Make Your Own 3D VTuber Avatar Using Vroid Studio For FREE https://www.youtube.com/watch?v=icphVX7QTo4",
+  "summary": "在 VRoid Studio 2.1.3 里从 AvatarSample_Y 改头发和身高，把 BOOTH 上免费的格子裙贴图导进 Long Coat (High Neck)，擦掉穿模后导出 VRM，再用 VSeeFace 1.13.38c 和 OBS 的 Spout2 叠进画面。",
+  "cover": "notes/mari-yume-beginner/18.jpg"
+}

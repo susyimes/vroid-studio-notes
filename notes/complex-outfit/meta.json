@@ -1,0 +1,9 @@
+{
+  "slug": "complex-outfit",
+  "title": "用相近版型叠出复杂裙子",
+  "category": "costume",
+  "date": "2026-11-25",
+  "source": "【Vroid3D】新手第一次竟然做复杂设的建模！超简单3d服装制作详解~全程带字幕 https://www.bilibili.com/video/BV1sF41137gf/",
+  "summary": "先在 VRoid 里选一条相近的短袖连衣裙，贴图拿到 SAI 里从里层和裙摆画起，领子和大衣用透明叠上去，鞋也画在贴图上。后半段打开头发的编辑骨骼，一键绑前发。",
+  "cover": "notes/complex-outfit/01.jpg"
+}

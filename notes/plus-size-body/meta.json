@@ -1,0 +1,9 @@
+{
+  "slug": "plus-size-body",
+  "title": "用 Bodysuit 做丰满体型",
+  "category": "body",
+  "date": "2026-11-25",
+  "source": "HOW TO CREATE BODY PLUS SIZE MODEL IN VROID STUDIO STABLE VERS. https://www.youtube.com/watch?v=xYQu9ph4f9s",
+  "summary": "VRoid Studio 1.11.1 里先把身体贴图放进 Bodysuit，用 Expand、Bulk、Flatten 把身子撑开，再在 Body 的 Whole Body 里加肩、胸和腰。封面是改完的全身。",
+  "cover": "notes/plus-size-body/01.jpg"
+}
