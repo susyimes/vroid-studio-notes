@@ -332,6 +332,15 @@ window.VROID_NOTES = {
       source: "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image https://huggingface.co/spaces/hyz317/HairDeck",
       summary: "免费演示页是 https://huggingface.co/spaces/hyz317/HairDeck 。上传一张人像，Variations 选 1，Seed 为 0，Sampling steps 选 50，Guidance scale 为 2，再点 Generate hair。Reference head 默认勾着，Spring bones 没勾。导出的 VRM 在示例人偶上，不进 VRoid 的头发编辑器。",
       cover: "notes/hairdeck/02.jpg"
+    },
+    {
+      slug: "booth-cloth-cases",
+      title: "Booth 衣服案例里反复出现的做法",
+      category: "costume",
+      date: "2026-11-26",
+      source: "BOOTH 商品页。日常街头、制服舞台、和装与中华风、幻想铠甲和赛博四个方向，各打开 28 个商品页。",
+      summary: "衣服画进现成模板，再用叠层做出内搭、拉链、裙撑和铠甲。领口和胸会变形就换一张图。滑杆只记商品页上写出来的。",
+      cover: "notes/booth-cloth-cases/06.jpg"
     }
   ]
 };
